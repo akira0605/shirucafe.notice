@@ -1,0 +1,4 @@
+AuthType     Basic
+AuthName     "Akira Tanaka"
+AuthUserFile shirucafe.notice/security.htpasswd
+require valid-user
