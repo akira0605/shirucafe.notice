@@ -7,8 +7,11 @@
     <title>掲示物・資料管理 @知るカフェ神大店</title>
     <script type="text/javascript">
       window.onload = function gate() {
-        var UserInput = prompt("パスワードを入力して下さい:","");
-        location.href = UserInput + "index.html";
+      myPassWord=prompt("パスワードを入力してください","");
+       if ( myPassWord == "pass1" ){
+           location.href="secret.htm";
+       }else{
+           alert( "パスワードが違います!" );
       }
     </script>
   </head>
