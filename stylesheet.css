@@ -16,14 +16,6 @@ li.shiryo{
   float:left;
 }
 
-/*
-body{
-  background-image: url("店鋪見取り図.jpg");
-  background-repeat:no-repeat;
-  background-size: 1200px 720px;
-  background-position: 40% 0%;
-}
-*/
 img.back{
   width:1200px;
   height:720px;
@@ -35,13 +27,15 @@ img.button{
   width:15px;
 }
 
-.date-keiji1{
+/*以下掲示物*/
+
+.keishoku-hansoku{
   position: absolute ;
   top: 290px;
-  left: 210px;
+  left: 190px;
 }
 
-.date-keiji1:hover:after{
+.keishoku-hansoku:hover:after{
   content:"軽食販促";
 　display:block;
 　position:absolute;
@@ -54,14 +48,683 @@ img.button{
 　text-align:center;
 }
 
-.date2-shiryo1{
+.wifi-pass-counter{
+  position: absolute ;
+  top: 280px;
+  left: 210px;
+}
+
+.wifi-pass-counter:hover:after{
+  content:"カウンターwifi案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.wifi-pass-sheet{
+  position: absolute ;
+  top: 500px;
+  left: 1170px;
+}
+
+.wifi-pass-sheet:hover:after{
+  content:"座席wifi案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.ic-navi{
+  position: absolute ;
+  top: 280px;
+  left: 220px;
+}
+
+.ic-navi:hover:after{
+  content:"交通系IC案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit1{
+  position: absolute ;
+  top: 270px;
+  left: 320px;
+}
+
+.recruit1:hover:after{
+  content:"リクルート1";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit2{
+  position: absolute ;
+  top: 270px;
+  left: 360px;
+}
+
+.recruit2:hover:after{
+  content:"リクルート2";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.carrier-sup{
+  position: absolute ;
+  top: 270px;
+  left: 340px;
+}
+
+.carrier-sup:hover:after{
+  content:"キャリア支援";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.survey-QR{
+  position: absolute ;
+  top: 520px;
+  left: 1160px;
+}
+
+.survey-QR:hover:after{
+  content:"CV QRコード";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.koryukai-special-event{
+  position: absolute ;
+  top: 160px;
+  left: 1000px;
+}
+
+.koryukai-special-event:hover:after{
+  content:"交流会スペシャルイベント";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.koryukai-navi{
+  position: absolute ;
+  top: 280px;
+  left: 1010px;
+}
+
+.koryukai-navi:hover:after{
+  content:"交流会案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.india-internship{
+  position: absolute ;
+  top: 400px;
+  left: 880px;
+}
+
+.india-internship:hover:after{
+  content:"インドインターンシップ";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.kansei-u{
+  position: absolute ;
+  top: 280px;
+  left: 160px;
+}
+
+.kansei-u:hover:after{
+  content:"関学オープン";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.hakkason{
+  position: absolute ;
+  top: 280px;
+  left: 140px;
+}
+
+.hakkason:hover:after{
+  content:"ハッカソン";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.summer-pop{
+  position: absolute ;
+  top: 390px;
+  left: 20px;
+}
+
+.summer-pop:hover:after{
+  content:"夏利用pop";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.enter-navi{
+  position: absolute ;
+  top: 360px;
+  left: 20px;
+}
+
+.enter-navi:hover:after{
+  content:"入店処理案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.VR-pop{
+  position: absolute ;
+  top: 390px;
+  left: 220px;
+}
+
+.VR-pop:hover:after{
+  content:"VR案内";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.return-here{
+  position: absolute ;
+  top: 300px;
+  left: 360px;
+}
+
+.return-here:hover:after{
+  content:"Return Here";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.pamph{
+  position: absolute ;
+  top: 270px;
+  left: 500px;
+}
+
+.pamph:hover:after{
+  content:"パンフレット take-free";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.pamph-manage{
+  position: absolute ;
+  top: 300px;
+  left: 500px;
+}
+
+.pamph-manage:hover:after{
+  content:"業界管理";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.toilet-attention{
+  position: absolute ;
+  top: 120px;
+  left: 1020px;
+}
+
+.toilet-attention:hover:after{
+  content:"トイレ使用注意";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.toilet-cleaning-tag{
+  position: absolute ;
+  top: 290px;
+  left: 960px;
+}
+
+.toilet-cleaning-tag:hover:after{
+  content:"トイレ清掃pop";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.number-tag{
+  position: absolute ;
+  top: 180px;
+  left: 80px;
+}
+
+.number-tag:hover:after{
+  content:"待ち札";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.description-for-new{
+  position: absolute ;
+  top: 230px;
+  left: 115px;
+}
+
+.description-for-new:hover:after{
+  content:"新規説明";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.leaving-pop{
+  position: absolute ;
+  top: 220px;
+  left: 110px;
+}
+
+.leaving-pop:hover:after{
+  content:"離席pop";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+/*以下社内資料*/
+
+.open-close-sheet{
   position: absolute;
   top: 230px;
   left: 210px;
 }
 
-.date2-shiryo1:hover:after{
+.open-close-sheet:hover:after{
   content:"閉店開店業務チェックシート";
+  display:block;
+  position:absolute;
+  bottom:10px;
+  left:0;
+  width:100%;
+  height:30px;
+  line-height:30px;
+  font-weight:bold;
+  text-align:center;
+}
+
+.attention-hand-washing{
+  position: absolute;
+  top: 110px;
+  left: 260px;
+}
+
+.attention-hand-washing:hover:after{
+  content:"手洗い注意";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.csr{
+  position: absolute;
+  top: 110px;
+  left: 220px;
+}
+
+.csr:hover:after{
+  content:"節水";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.manual{
+  position: absolute;
+  top: 210px;
+  left: 290px;
+}
+
+.manual:hover:after{
+  content:"マニュアル";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.toilet-open{
+  position: absolute;
+  top: 380px;
+  left: 1150px;
+}
+
+.toilet-open:hover:after{
+  content:"営業中トイレチェックシート";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.toilet-close{
+  position: absolute;
+  top: 400px;
+  left: 1150px;
+}
+
+.toilet-close:hover:after{
+  content:"CLOSEトイレチェックシート";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+
+.VR-manual{
+  position: absolute;
+  top: 240px;
+  left: 120px;
+}
+
+.VR-manual:hover:after{
+  content:"VRマニュアル";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.pamph-check{
+  position: absolute;
+  top: 290px;
+  left: 480px;
+}
+
+.pamph-check:hover:after{
+  content:"パンフレットチェックシート";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.lost-article-sheet{
+  position: absolute;
+  top: 200px;
+  left: 340px;
+}
+
+.lost-article-sheet:hover:after{
+  content:"忘れ物チェックシート";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.sv-result{
+  position: absolute;
+  top: 190px;
+  left: 280px;
+}
+
+.sv-result:hover:after{
+  content:"SV結果";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+.nippo{
+  position: absolute;
+  top: 200px;
+  left: 330px;
+}
+
+.nippo:hover:after{
+  content:"日報";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+
+.name-plate{
+  position: absolute;
+  top: 210px;
+  left: 320px;
+}
+
+.name-plate:hover:after{
+  content:"名札";
+  　display:block;
+  　position:absolute;
+  　bottom:10px;
+  　left:0;
+  　width:100%;
+  　height:30px;
+  　line-height:30px;
+  　font-weight:bold;
+  　text-align:center;
+}
+
+
+.training-sheet{
+  position: absolute;
+  top: 210px;
+  left: 305px;
+}
+
+.training-sheet:hover:after{
+  content:"研修シート";
   　display:block;
   　position:absolute;
   　bottom:10px;
