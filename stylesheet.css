@@ -484,6 +484,28 @@ img.button{
 　font-weight:bold;
 　text-align:center;
 }
+
+.signage-date{
+  position: absolute ;
+  top: 360px;
+  left: 640px;
+}
+
+.signage-date:hover:after{
+  content:"サイネージデータ";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+
+
 /*以下社内資料*/
 
 .open-close-sheet{
