@@ -576,7 +576,7 @@ img.button{
 }
 
 .csr:hover:after{
-  content:"節水";
+  content:"節水 CSR";
   　display:block;
   　position:absolute;
   　bottom:10px;
