@@ -557,7 +557,7 @@ img.button{
 }
 
 .attention-hand-washing:hover:after{
-  content:"手洗い注意";
+  content:"手洗い方法";
   　display:block;
   　position:absolute;
   　bottom:10px;
