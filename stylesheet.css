@@ -30,13 +30,51 @@ img.button{
 
 /*以下掲示物*/
 
-.keishoku-hansoku{
+.keishoku-hansoku1{
   position: absolute ;
   top: 290px;
   left: 190px;
 }
 
-.keishoku-hansoku:hover:after{
+.keishoku-hansoku1:hover:after{
+  content:"軽食販促";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.keishoku-hansoku2{
+  position: absolute ;
+  top: 380px;
+  left: 640px;
+}
+
+.keishoku-hansoku2:hover:after{
+  content:"軽食販促";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.keishoku-hansoku3{
+  position: absolute ;
+  top: 750px;
+  left: 750px;
+}
+
+.keishoku-hansoku3:hover:after{
   content:"軽食販促";
 　display:block;
 　position:absolute;
@@ -144,6 +182,101 @@ img.button{
 　text-align:center;
 }
 
+.recruit3{
+  position: absolute ;
+  top: 380px;
+  left: 620px;
+}
+
+.recruit3:hover:after{
+  content:"リクルート2";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit4{
+  position: absolute ;
+  top: 750px;
+  left: 770px;
+}
+
+.recruit4:hover:after{
+  content:"リクルート2";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit5{
+  position: absolute ;
+  top: 280px;
+  left: 980px;
+}
+
+.recruit5:hover:after{
+  content:"リクルート2";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit6{
+  position: absolute ;
+  top: 280px;
+  left: 1030px;
+}
+
+.recruit6:hover:after{
+  content:"リクルート1";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.recruit7{
+  position: absolute ;
+  top: 390px;
+  left: 870px;
+}
+
+.recruit7:hover:after{
+  content:"リクルート1";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
 .carrier-sup{
   position: absolute ;
   top: 270px;
@@ -182,13 +315,32 @@ img.button{
 　text-align:center;
 }
 
-.koryukai-special-event{
+.koryukai-special-event1{
   position: absolute ;
   top: 160px;
   left: 1000px;
 }
 
-.koryukai-special-event:hover:after{
+.koryukai-special-event1:hover:after{
+  content:"交流会スペシャルイベント";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.koryukai-special-event2{
+  position: absolute ;
+  top: 180px;
+  left: 990px;
+}
+
+.koryukai-special-event2:hover:after{
   content:"交流会スペシャルイベント";
 　display:block;
 　position:absolute;
