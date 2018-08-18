@@ -353,6 +353,46 @@ img.button{
 　text-align:center;
 }
 
+
+.koryukai-pop1{
+  position: absolute ;
+  top: 250px;
+  left: 520px;
+}
+
+.koryukai-pop1:hover:after{
+  content:"交流会pop";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+.koryukai-pop2{
+  position: absolute ;
+  top: 250px;
+  left: 870px;
+}
+
+.koryukai-pop2:hover:after{
+  content:"交流会pop";
+　display:block;
+　position:absolute;
+　bottom:10px;
+　left:0;
+　width:100%;
+　height:30px;
+　line-height:30px;
+　font-weight:bold;
+　text-align:center;
+}
+
+
 .koryukai-navi{
   position: absolute ;
   top: 280px;
