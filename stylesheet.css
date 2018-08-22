@@ -296,14 +296,14 @@ img.button{
 　text-align:center;
 }
 
-.survey-QR{
+.one-more-QR{
   position: absolute ;
   top: 520px;
   left: 1160px;
 }
 
-.survey-QR:hover:after{
-  content:"CV QRコード";
+.one-more-QR:hover:after{
+  content:"おかわり QRコード";
 　display:block;
 　position:absolute;
 　bottom:10px;
